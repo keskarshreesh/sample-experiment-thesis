@@ -1,0 +1,90 @@
+<tf.Variable 'pose_encoder/conv_layers/conv2d/kernel:0' shape=(7, 7, 17, 32) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d/bias:0' shape=(32,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization/gamma:0' shape=(32,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization/beta:0' shape=(32,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_1/kernel:0' shape=(3, 3, 32, 32) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_1/bias:0' shape=(32,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_1/gamma:0' shape=(32,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_1/beta:0' shape=(32,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_2/kernel:0' shape=(3, 3, 32, 64) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_2/bias:0' shape=(64,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_2/gamma:0' shape=(64,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_2/beta:0' shape=(64,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_3/kernel:0' shape=(3, 3, 64, 64) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_3/bias:0' shape=(64,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_3/gamma:0' shape=(64,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_3/beta:0' shape=(64,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_4/kernel:0' shape=(3, 3, 64, 128) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_4/bias:0' shape=(128,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_4/gamma:0' shape=(128,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_4/beta:0' shape=(128,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_5/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_5/bias:0' shape=(128,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_5/gamma:0' shape=(128,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_5/beta:0' shape=(128,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_6/kernel:0' shape=(3, 3, 128, 256) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_6/bias:0' shape=(256,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_6/gamma:0' shape=(256,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_6/beta:0' shape=(256,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_7/kernel:0' shape=(3, 3, 256, 256) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_7/bias:0' shape=(256,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_7/gamma:0' shape=(256,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_7/beta:0' shape=(256,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_8/kernel:0' shape=(3, 3, 256, 512) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_8/bias:0' shape=(512,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_8/gamma:0' shape=(512,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_8/beta:0' shape=(512,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_9/kernel:0' shape=(3, 3, 512, 512) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/conv2d_9/bias:0' shape=(512,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_9/gamma:0' shape=(512,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/conv_layers/batch_normalization_9/beta:0' shape=(512,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/fc_1/kernel:0' shape=(100352, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/fc_1/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/batch_normalization/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/batch_normalization/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/fc_2/kernel:0' shape=(1024, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/fc_2/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/batch_normalization_1/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/batch_normalization_1/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/fc_3/kernel:0' shape=(1024, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/fc_3/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/batch_normalization_2/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/batch_normalization_2/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_4/kernel:0' shape=(1024, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_4/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/batch_normalization/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/batch_normalization/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_5/kernel:0' shape=(1024, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_5/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/batch_normalization_1/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/batch_normalization_1/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_6/kernel:0' shape=(1024, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_6/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/batch_normalization_2/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/batch_normalization_2/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_7/kernel:0' shape=(1024, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_7/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/batch_normalization_3/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/batch_normalization_3/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_embedding/kernel:0' shape=(1024, 6) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_embedding/bias:0' shape=(6,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_cam_params/kernel:0' shape=(1024, 2) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_angles/fc_cam_params/bias:0' shape=(2,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/fc_8/kernel:0' shape=(1024, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/fc_8/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/batch_normalization/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/batch_normalization/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/fc_9/kernel:0' shape=(1024, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/fc_9/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/batch_normalization_1/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/batch_normalization_1/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/fc_10/kernel:0' shape=(1024, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/fc_10/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/batch_normalization_2/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/batch_normalization_2/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/fc_11/kernel:0' shape=(1024, 1024) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/fc_11/bias:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/batch_normalization_3/gamma:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/batch_normalization_3/beta:0' shape=(1024,) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/pose/kernel:0' shape=(1024, 40) dtype=float32_ref>
+<tf.Variable 'pose_encoder/cam_branch/cam_params/pose/bias:0' shape=(40,) dtype=float32_ref>

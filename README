@@ -1,0 +1,3 @@
+Predicting 3d skeleton (parent relative), camera angles - only tilt(constrained -90to90) and azimuth
+l2 loss with mask from background and target image subtraction
+10% 2d supervision on mads
